@@ -6,108 +6,63 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Maintbuddy | Equipment Lookup & Parts Finder</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap">
 	<link rel="stylesheet" href="style.css">
-	<style>
-		body {
-			background-color: #808080;
-		}
+</head>
+<body>
 
-		.container {
-			max-width: 1200px;
-			margin: 0 auto;
-			padding: 0 20px;
-		}
+	<!-- Header Section -->
+	<header class="header">
+		<div class="container">
+			<div class="logo">
+				<img src="logo.png" alt="Maintbuddy Logo">
+			</div>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">Features</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">Contact Us</a></li>
+				</ul>
+			</nav>
+			<a href="#" class="cta">Sign Up</a>
+		</div>
+	</header>
 
-		.header {
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
-			padding: 20px 0;
-			position: fixed;
-			top: 0;
-			left: 0;
-			width: 100%;
-			background-color: #fff;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-			z-index: 1000;
-		}
+	<!-- Hero Section -->
+	<section class="hero">
+		<div class="container">
+			<h1 class="hero__title">Find Equipment Models & Parts Faster with Maintbuddy</h1>
+			<p class="hero__text">Say goodbye to the hassle of searching for equipment model numbers and parts. Get instant access to the information you need with Maintbuddy.</p>
+			<a href="#" class="btn btn--hero">Get Started</a>
+		</div>
+	</section>
 
-		.logo {
-			flex: 1;
-		}
+	<!-- Features Section -->
+	<section class="features">
+		<div class="container">
+			<h2 class="section-title">Features</h2>
+			<div class="feature__grid">
+				<div class="feature">
+					<img src="feature1.jpg" alt="Feature 1">
+					<h3 class="feature__title">Equipment Lookup</h3>
+					<p class="feature__text">Find equipment models and specs quickly and easily. No more searching through manuals or online resources.</p>
+				</div>
+				<div class="feature">
+					<img src="feature2.jpg" alt="Feature 2">
+					<h3 class="feature__title">Parts Finder</h3>
+					<p class="feature__text">Search for parts by model number or equipment type. Get detailed information on part specifications and availability.</p>
+				</div>
+				<div class="feature">
+					<img src="feature3.jpg" alt="Feature 3">
+					<h3 class="feature__title">Maintenance Records</h3>
+					<p class="feature__text">Track and manage equipment maintenance and repair records. Get alerts for upcoming maintenance tasks and inspections.</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
-		.nav {
-			flex: 2;
-		}
-
-		.nav__list {
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
-			list-style: none;
-			margin: 0;
-			padding: 0;
-		}
-
-		.nav__item {
-			margin: 0 10px;
-			font-size: 1.2rem;
-			font-weight: 700;
-		}
-
-		.nav__link {
-			color: #333;
-			text-decoration: none;
-			transition: all 0.2s ease-in-out;
-		}
-
-		.nav__link:hover {
-			color: #2196f3;
-		}
-
-		.cta {
-			flex: 1;
-			text-align: right;
-			font-size: 1.2rem;
-			font-weight: 700;
-			color: #fff;
-			background-color: #2196f3;
-			border-radius: 5px;
-			padding: 10px 20px;
-			text-decoration: none;
-			transition: all 0.2s ease-in-out;
-		}
-
-		.cta:hover {
-			background-color: #1769aa;
-		}
-
-		.hero {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			min-height: 100vh;
-			background-image: url('hero-bg.jpg');
-			background-repeat: no-repeat;
-			background-position: center center;
-			background-size: cover;
-		}
-
-		.hero__title {
-			font-size: 3rem;
-			font-weight: 700;
-			color: #fff;
-			text-align: center;
-			text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
-			margin-bottom: 20px;
-		}
-
-		.hero__text {
-			font-size: 1.5rem;
-			font-weight: 400;
-			color: #fff;
-			text-align: center;
-			text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
-			max-width: 800px;
-			margin
+	<!-- Pricing Section -->
+	<section class="pricing">
+		<div class="container">
+			<h2 class="section-title">Pricing</h2
