@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Maintbuddy | Equipment Lookup & Parts Finder</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Open Sans', sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+			color: #333333;
+		}
+		h1, h2, h3, h4, h5, h6 {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 700;
+			line-height: 1.2;
+			margin-top: 0;
+			margin-bottom: 1rem;
+			color: #1f2937;
+		}
+		a {
+			color: #1f2937;
+			text-decoration: none;
+		}
+		a:hover {
+			color: #2563eb;
+		}
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 0 20px;
+		}
+		.header {
+			background-color: #FFFFFF;
+			box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			z-index: 999;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			height: 80px;
+			padding: 0 20px;
+			width: 100%;
+		}
+		.logo img {
+			height: 40px;
+			width: auto;
+		}
+		.nav__list {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+		}
+		.nav__item {
+			margin-left: 30px;
+		}
+		.cta {
+			background-color: #2563eb;
+			border-radius: 4px;
+			color: #FFFFFF;
+			padding: 10px 20px;
+			font-size: 16px;
+			font-weight: 700;
+			text-transform: uppercase;
+			transition: background-color 0.2s ease-in-out;
+		}
+		.cta:hover {
+			background-color: #1d4ed8;
+		}
+		.hero {
+			background-image: url('hero.jpg');
+			background-position: center;
+			background-size: cover;
+			height: 500px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			color: #FFFFFF;
+		
